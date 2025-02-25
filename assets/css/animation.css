@@ -1,0 +1,75 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End in the original position */
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%); /* Slide in from left */
+        opacity: 0; /* Start invisible */
+    }
+    100% {
+        transform: translateX(0); /* End in original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+@keyframes scaleUp {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}
+
+.header-name {
+    animation: fadeIn 1s ease-in-out;
+}
+.header-role {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.profile-img {
+    animation: scaleUp 1s ease-in-out;
+}
+
+.links a {
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s ease-in-out forwards; /* Fade in */
+}
+
+/* Add delays for staggered effect */
+.links a.resume {
+    animation-delay: 0.5s;
+}
+
+.links a.projects {
+    animation-delay: 0.7s;
+}
+
+.links a.contact {
+    animation-delay: 0.9s;
+}
+
+.fade-inside {
+    animation: fadeIn 0.5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes fadeInside {
+    from {
+        opacity: 0; /* Start from invisible */
+        transform: translateX(-20px); /* Move slightly from the left */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+        transform: translateX(0); /* Move to original position */
+    }
+}
