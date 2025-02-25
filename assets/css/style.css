@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column; /* Stack children vertically */
     justify-content: space-between; /* Space between header, main, and footer */
-    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* font-family: 'Arial', sans-serif; */
     background-color: #FFFFFF; /* White */
     color: #333333; /* Dark Gray */
@@ -107,7 +107,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 nav ul li {
@@ -159,10 +159,10 @@ nav ul li a:hover {
     /* text-align: left; */
     margin-left: 3%;
     margin-right: 3%;
-    padding: 50px 0;
+    padding: 10px 10px;
     opacity: 0; /* Start invisible */
     animation: fadeInUp 1s ease forwards; /* Animation for the hero section */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333;
 }
 
@@ -189,11 +189,12 @@ nav ul li a:hover {
     opacity: 0; /* Start hidden */
     animation: slideIn 0.5s forwards; /* Apply slide-in animation */
     transition: opacity 0.5s; /* Smooth transition */
+    padding: 0%;
 }
 
 .experience-content {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out left and right content */
+   
     align-items: flex-start; /* Align items at the start */
     margin-bottom: 20px; /* Space between experience items */
 }
@@ -222,7 +223,7 @@ nav ul li a:hover {
     padding: 50px 0;
     opacity: 0; /* Start invisible */
     animation: fadeInUp 1s ease forwards; /* Animation for the hero section */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333;
 }
 
@@ -283,7 +284,7 @@ button {
     padding: 50px 0;
     opacity: 0;
     animation: fadeInUp 1s ease forwards;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333;
     text-align: left;
 }
@@ -304,7 +305,7 @@ button {
     opacity: 0; /* Initially hidden */
     animation: slideIn 0.5s forwards; /* Apply slide-in animation */
     transition: opacity 0.5s; /* Smooth transition */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333;
     text-align: left;
 }
@@ -363,7 +364,7 @@ footer {
 .footer-column h3 {
     font-size: 16px;
     margin-bottom: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .social-icons {
@@ -424,7 +425,7 @@ footer {
 .header-name {
     font-size: 30px; /* Larger font size for name */
     font-weight: bold; /* Bold font */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333333;
 }
 a {
@@ -435,7 +436,7 @@ a {
 .header-role {
     font-size: 20px; /* Medium font size */
     font-weight: normal; /* Normal weight */
-    font-family: monospace; /* Professional font */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Professional font */
     color: #555555;
 }
 
@@ -448,7 +449,7 @@ a {
 .about-content h1 {
     font-size: 100px; /* Large font for the main heading */
     margin: 0; /* Remove default margin */
-    font-family: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation: slideIn 1s ease forwards; /* Animation for the header */
 }
 
@@ -493,7 +494,7 @@ a {
     text-decoration: none; /* Remove underline */
     margin-right: 10px; /* Space between buttons */
     transition: background-color 0.3s; /* Smooth color transition */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .circle-button.resume {
@@ -533,7 +534,7 @@ a {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: fadeInUp 1s ease-in-out forwards;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-left {
@@ -585,7 +586,7 @@ a {
     font-weight: bold;
     display: flex;
     align-items: center;
-    font-family: cursive ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .resume-button i {
